@@ -21,5 +21,5 @@ Yes it's for anime.
 - I might still keep the wikipedia searcher, just for the sake of completeness.
 - You should be able to auto-rename an entire series using the titles from Wikipedia.
 
-# Me 5 Hours into this dumb project ->
+# Me 6 Hours into this dumb project ->
 <img src="https://i.ytimg.com/vi/jtTBYMvLBbw/maxresdefault.jpg">
