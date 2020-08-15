@@ -9,7 +9,7 @@ class Anime:
     episode_count = int
     score = float
 
-    def anime_mapper(self, result_json):
+    def __init__(self, result_json):
         self.mal_id = result_json["mal_id"]
         self.url = result_json["url"]
         self.image_url = result_json["image_url"]
