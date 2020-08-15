@@ -6,6 +6,15 @@ Yes it's for anime.
 
 <img src="https://www.pngkit.com/png/detail/294-2943980_7639058-thumbs-up-anime-meme.png">
 
+
+## Build from scratch?
+```bash
+    $ pip install -r requirements.txt
+    $ pyinstaller main.py --distpath dist --clean --onedir -n batch-rename-v2
+    $ dist/batch-rename-v2
+```
+
+
 ## Doing
 - Integrate wikipedia search.
 - Add error message regarding MAL refusing connection due to too many requests.
