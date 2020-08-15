@@ -10,7 +10,10 @@ Yes it's for anime.
 ## Build from scratch?
 ```bash
     $ pip install -r requirements.txt
+    $ pyinstaller main.py --distpath dist --clean --onefile -n batch-rename-v2
+    # OR
     $ pyinstaller main.py --distpath dist --clean --onedir -n batch-rename-v2
+    # To run:
     $ dist/batch-rename-v2
 ```
 
