@@ -3,3 +3,5 @@ env
 data/Anime
 __pycache__
 .ipynb_checkpoints
+*.spec
+build/
