@@ -2,11 +2,12 @@ from cli import check_files
 from cli import wiki_tester
 from cli import anime_searcher
 from cli import renamer
+from config import config
 
 import webbrowser
 
 if __name__ == "__main__":
-    print(open('intro.txt').read())
+    print(config.WELCOME_MESSAGE)
     path_to_anime = str(input("Path to folder: "))
     all_files = check_files.all_files(path_to_anime)
     # wiki_tester.test()
