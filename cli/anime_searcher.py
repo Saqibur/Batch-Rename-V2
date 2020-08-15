@@ -8,5 +8,10 @@ def search(best_matches=5):
     result = show_info.search(str(search_term), best_matches)
 
     print("Retrieved: %d shows.\n" % len(result))
-    for res in result:
-        print(res.title)
+    return result
+    # for res in result:
+    #     print(res.title)
+
+    # anime = result[0]
+    # for ep in anime.episodes(anime.mal_id):
+    #     print(ep.title)
