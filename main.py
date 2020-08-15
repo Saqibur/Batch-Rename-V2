@@ -6,7 +6,7 @@ from cli import renamer
 import webbrowser
 
 if __name__ == "__main__":
-
+    print(open('intro.txt').read())
     path_to_anime = str(input("Path to folder: "))
     all_files = check_files.all_files(path_to_anime)
     # wiki_tester.test()
