@@ -8,9 +8,11 @@ Yes it's for anime.
 
 ## Doing
 - Integrate wikipedia search.
+- Add error message regarding MAL refusing connection due to too many requests.
 - Add internet connection checks.
 - Write updates scripts for full reseed and reindex of anime episode databse.
 - Implement Jikan Parser.
+- The so-called function approach has a problem i need to fix. Right now, it needs to get evaluated every time. I don't want that.
 
 ## Done
 - ~Parse anime episode data from Wikiepedia~
