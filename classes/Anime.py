@@ -8,6 +8,7 @@ class Anime:
     _type = str
     episode_count = int
     score = float
+    episodes = list
 
     def __init__(self, result_json):
         self.mal_id = result_json["mal_id"]
@@ -17,5 +18,8 @@ class Anime:
         self.airing = result_json["airing"]
         self.synopsis = result_json["synopsis"]
         self._type = result_json["type"]
-        self.episodes = result_json["episodes"]
+        self.episode_count = result_json["episodes"]
         self.score = result_json["score"]
+
+    def set_anime_episodes(self, episodes):
+        self.episodes = episodes
