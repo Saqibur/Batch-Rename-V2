@@ -19,6 +19,7 @@ Yes it's for anime.
 
 
 ## Doing
+- NEED TO INTEGRATE LOGGING IMMEDIATELY.
 - Integrate wikipedia search.
 - Add error message regarding MAL refusing connection due to too many requests.
 - Add internet connection checks.
