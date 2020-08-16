@@ -17,14 +17,14 @@ Yes it's for anime.
     $ dist/batch-rename-v2
 ```
 
-
 ## Doing
-- Create persistent CLI.
+- Add cover image from MAL.
 - Browse only-mode.
-- The so-called function approach has a problem i need to fix. Right now, it needs to get evaluated every time. I don't want that.
-
+- Option to create a new folder and files instead of renaming.
 
 ## TODO
+- Create persistent CLI.
+- The so-called function approach has a problem i need to fix. Right now, it needs to get evaluated every time. I don't want that.
 - Integrate wikipedia search. Not really important because the results from MAL are promising.
 - Write updates scripts for full reseed and reindex of anime episode database.
 - Start GUI work.
