@@ -18,12 +18,12 @@ Yes it's for anime.
 ```
 
 ## Doing
-- Add cover image from MAL.
-2. Option to create a new folder and files instead of renaming.
-
+1. Option to create a new folder and files instead of renaming.
+2. Add some unit tests.
 ---- FIRST MILESTONE ----
 
 ## TODO
+- Auto-detect show name from folder name.
 - Remove all the wikipedia stuff
 - Create persistent CLI.
 - The so-called function approach has a problem i need to fix. Right now, it needs to get evaluated every time. I don't want that.
@@ -32,6 +32,7 @@ Yes it's for anime.
 - Start GUI work.
 
 ## Done
+- ~Add cover image from MAL.~
 - ~View-only mode.~
 - ~Add internet connection checks.~
 - ~Added logging in case someone decides to actually report an error.~
