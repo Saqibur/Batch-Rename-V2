@@ -4,6 +4,7 @@ import re
 from colorama import Fore, Back, Style
 from backend.file_explorer import rename_file
 import webbrowser
+import urllib.request
 ### FOR REASONS ###
 colorama.init(autoreset=True)
 
@@ -36,3 +37,10 @@ def rename_files(selected_anime, all_files):
             new_name = re.sub(r'[<>:"/\|?*]*', '', new_name)
             rename_file(file_name, new_name)
     print(Fore.BLUE + "=====DONE RENAMING=====")
+
+def create_cover_image(path, anime):
+    response = urllib.request.urlopen(anime.image_url)
+    os.mkdir(path + '/Covers/')
+    file = open(path + "/Covers/Cover.jpg", "wb")
+    file.write(response.read())
+    file.close()

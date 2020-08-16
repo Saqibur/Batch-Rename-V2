@@ -62,6 +62,7 @@ if __name__ == "__main__":
     selected_anime = top_anime_results[selection - 1]
 
     renamer.show_before_after(selected_anime, all_files)
+    renamer.create_cover_image(path_to_anime, selected_anime)
 
     confirmation = str(input("Do you want to rename your files? (y/n) ")).lower()
     if confirmation == "y":
