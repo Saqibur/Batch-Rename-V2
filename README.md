@@ -23,6 +23,7 @@ Yes it's for anime.
 - Create the following modes:
 1. Browse only-mode.
 2. Option to create a new folder and files instead of renaming.
+
 ---- FIRST MILESTONE ----
 
 ## TODO
