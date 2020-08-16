@@ -19,15 +19,20 @@ Yes it's for anime.
 
 
 ## Doing
-- Integrate wikipedia search.
-- Add error message regarding MAL refusing connection due to too many requests.
-- Add internet connection checks.
-- Write updates scripts for full reseed and reindex of anime episode database.
-- Implement Jikan Parser.
+- Create persistent CLI.
+- Browse only-mode.
 - The so-called function approach has a problem i need to fix. Right now, it needs to get evaluated every time. I don't want that.
 
+
+## TODO
+- Integrate wikipedia search. Not really important because the results from MAL are promising.
+- Write updates scripts for full reseed and reindex of anime episode database.
+- Start GUI work.
+
 ## Done
+- ~Add internet connection checks.~
 - ~Added logging in case someone decides to actually report an error.~
+- ~Implement Jikan Parser.~
 - ~Parse anime episode data from Wikipedia.~
 - ~Created primary data source for anime episodes...phew.~
 - ~Create local index of all anime episodes.~
