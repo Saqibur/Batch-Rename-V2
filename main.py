@@ -3,12 +3,16 @@ from cli import wiki_tester
 from cli import anime_searcher
 from cli import renamer
 from config import config
-
+from backend import network
 import logging
 import webbrowser
 import os
 
 if __name__ == "__main__":
+
+    if network.internet_on() is not True:
+        print("Cannot connect to MAL.net, please check your internet connection.")
+        exit(0)
 
     if config.USE_LOCAL:
         if os.path.isdir(config.LOG_FOLDER) is not True:
