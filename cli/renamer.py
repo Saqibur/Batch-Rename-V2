@@ -5,6 +5,7 @@ from colorama import Fore, Back, Style
 from backend.file_explorer import rename_file
 import webbrowser
 import urllib.request
+import logging
 ### FOR REASONS ###
 colorama.init(autoreset=True)
 
@@ -39,8 +40,10 @@ def rename_files(selected_anime, all_files):
     print(Fore.BLUE + "=====DONE RENAMING=====")
 
 def create_cover_image(path, anime):
+    logging.info("Creating cover image.")
     response = urllib.request.urlopen(anime.image_url)
     os.mkdir(path + '/Covers/')
     file = open(path + "/Covers/Cover.jpg", "wb")
     file.write(response.read())
     file.close()
+    logging.info("Created cover image in: %s" % path)
