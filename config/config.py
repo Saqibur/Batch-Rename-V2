@@ -31,3 +31,5 @@ LOCAL_SEARCH_INDEX = './Data/anime_episodes v1.csv'
 LOCAL_SEARCH_INDEX_FOLDER = './Data'
 
 DOWNLOAD_LINK_LOCAL_SEARCH_INDEX= 'https://github.com/Saqibur/Batch-Rename-V2/raw/master/data/anime_episodes%20v1.csv'
+
+USE_LOCAL = False
