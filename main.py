@@ -17,7 +17,7 @@ logging.basicConfig(
 import webbrowser
 
 if __name__ == "__main__":
-    logging.info("It's happening")
+    logging.info("Application Started")
     print(config.WELCOME_MESSAGE)
     path_to_anime = str(input("Path to folder: "))
     all_files = check_files.all_files(path_to_anime)
