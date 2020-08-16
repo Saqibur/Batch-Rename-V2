@@ -4,9 +4,20 @@ from cli import anime_searcher
 from cli import renamer
 from config import config
 
+import logging
+
+logging.basicConfig(
+    filename=config.LOG_FILE,
+    filemode='w',
+    format='%(asctime)s.%(msecs)03d %(levelname)s - %(message)s',
+    level=logging.INFO,
+    datefmt="%Y-%m-%d %H:%M:%S"
+)
+
 import webbrowser
 
 if __name__ == "__main__":
+    logging.info("It's happening")
     print(config.WELCOME_MESSAGE)
     path_to_anime = str(input("Path to folder: "))
     all_files = check_files.all_files(path_to_anime)

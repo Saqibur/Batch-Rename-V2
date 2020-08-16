@@ -23,3 +23,4 @@ WELCOME_MESSAGE = """
 |                           |
 +---------------------------+
 """
+LOG_FILE = './logs.txt'
