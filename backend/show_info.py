@@ -40,6 +40,8 @@ def search(search_term: str, best_matches=5) -> dict:
     except APIException:
         print("Failed to retrieve and connect to MAL.")
         logging.error("Failed to retrieve and connect to MAL when searching.")
+        logging.error(APIException.with_traceback())
+
     except:
         print("Something went horribly wrong. You should probably close the application. Lol.")
 
