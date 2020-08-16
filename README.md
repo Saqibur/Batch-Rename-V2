@@ -19,9 +19,6 @@ Yes it's for anime.
 
 ## Doing
 - Add cover image from MAL.
-- Add mode explanations.
-- Create the following modes:
-1. Browse only-mode.
 2. Option to create a new folder and files instead of renaming.
 
 ---- FIRST MILESTONE ----
@@ -35,6 +32,7 @@ Yes it's for anime.
 - Start GUI work.
 
 ## Done
+- ~View-only mode.~
 - ~Add internet connection checks.~
 - ~Added logging in case someone decides to actually report an error.~
 - ~Implement Jikan Parser.~
