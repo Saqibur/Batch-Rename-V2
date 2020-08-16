@@ -22,8 +22,7 @@ def all_files_in_path(path: str) -> list:
     return all_files_in_folder
 
 def rename_file(path, new_name):
-    logging.info("Started file renames.")
     basename = os.path.basename(path)
     extention = os.path.splitext(path)
     os.rename(path, path.split(basename)[0] + new_name + extention[1])
-    logging.info("Renamed %s to %s" % (basename, new_name))
+    logging.info("Renamed %s to |====| %s" % (basename, new_name))
