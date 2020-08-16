@@ -4,7 +4,7 @@ A simple batch renamer for several files/folder structures. Can be used through 
 
 Yes it's for anime.
 
-<img src="https://www.pngkit.com/png/detail/294-2943980_7639058-thumbs-up-anime-meme.png">
+<img height="200px" src="https://www.pngkit.com/png/detail/294-2943980_7639058-thumbs-up-anime-meme.png">
 
 
 ## Build from scratch?
@@ -19,16 +19,16 @@ Yes it's for anime.
 
 
 ## Doing
-- NEED TO INTEGRATE LOGGING IMMEDIATELY.
 - Integrate wikipedia search.
 - Add error message regarding MAL refusing connection due to too many requests.
 - Add internet connection checks.
-- Write updates scripts for full reseed and reindex of anime episode databse.
+- Write updates scripts for full reseed and reindex of anime episode database.
 - Implement Jikan Parser.
 - The so-called function approach has a problem i need to fix. Right now, it needs to get evaluated every time. I don't want that.
 
 ## Done
-- ~Parse anime episode data from Wikiepedia~
+- ~Added logging in case someone decides to actually report an error.~
+- ~Parse anime episode data from Wikipedia.~
 - ~Created primary data source for anime episodes...phew.~
 - ~Create local index of all anime episodes.~
 
