@@ -23,4 +23,6 @@ WELCOME_MESSAGE = """
 |                           |
 +---------------------------+
 """
-LOG_FILE = './logs.txt'
+from datetime import datetime
+LOG_FILE = './Logs/%s-logs.txt' % datetime.now().strftime("%Y-%m-%d %H-%M-%S")
+LOG_FOLDER = './Logs'
