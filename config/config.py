@@ -19,6 +19,7 @@ WELCOME_MESSAGE = """
 | - MAL searching           |
 | | Auto folder rename      |
 | | Episode numbers         |
+| | View-Only mode          |
 | - Episode titles          |
 |                           |
 +---------------------------+

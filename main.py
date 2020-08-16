@@ -2,6 +2,7 @@ from cli import check_files
 from cli import wiki_tester
 from cli import anime_searcher
 from cli import renamer
+from cli import browsing_mode
 from config import config
 from backend import network
 import logging
@@ -39,6 +40,15 @@ if __name__ == "__main__":
 
     logging.info("Application Started")
     print(config.WELCOME_MESSAGE)
+
+    print("[1] Renaming Anime.")
+    print("[2] Check Anime Episode Names. (View-Only)")
+
+    mode = int(input("Which mode?: "))
+
+    if mode == 2:
+        browsing_mode.start()
+
     path_to_anime = str(input("Path to folder: "))
     all_files = check_files.all_files(path_to_anime)
     # wiki_tester.test()
