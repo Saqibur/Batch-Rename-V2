@@ -18,11 +18,12 @@ Yes it's for anime.
 ```
 
 ## Doing
-1. Option to create a new folder and files instead of renaming.
-2. Add some unit tests.
----- FIRST MILESTONE ----
+- Nothing at the moment.
 
 ## TODO
+- Option to create a new folder and files instead of renaming.
+- Code cleanup.
+- Add some unit tests.
 - Auto-detect show name from folder name.
 - Remove all the wikipedia stuff
 - Create persistent CLI.
