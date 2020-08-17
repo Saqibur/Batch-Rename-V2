@@ -5,4 +5,4 @@ __pycache__
 .ipynb_checkpoints
 *.spec
 build/
-Logs/*.txt
+logs/*.txt
