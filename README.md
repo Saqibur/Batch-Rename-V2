@@ -33,6 +33,7 @@ Yes it's for anime.
 - Start GUI work.
 
 ## Done
+- ~Add icon to dist.~
 - ~Add cover image from MAL.~
 - ~View-only mode.~
 - ~Add internet connection checks.~
