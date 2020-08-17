@@ -1,4 +1,4 @@
-# Batch-Rename-V2
+# <img height=22px src="./images/logo.png"> Batch-Rename-V2
 
 A simple batch renamer for several files/folder structures. Can be used through a CLI or GUI.
 
@@ -10,7 +10,7 @@ Yes it's for anime.
 ## Build from scratch?
 ```bash
     $ pip install -r requirements.txt
-    $ pyinstaller main.py --distpath dist --clean --onefile -n batch-rename-v2
+    $ pyinstaller main.py --distpath dist --clean --icon=images/logo.ico --onefile -n Batch-Rename-V2-0.1a
     # OR
     $ pyinstaller main.py --distpath dist --clean --onedir -n batch-rename-v2
     # To run:
