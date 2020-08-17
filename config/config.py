@@ -25,8 +25,8 @@ WELCOME_MESSAGE = """
 +---------------------------+
 """
 from datetime import datetime
-LOG_FILE = './Logs/%s-logs.txt' % datetime.now().strftime("%Y-%m-%d %H-%M-%S")
-LOG_FOLDER = './Logs'
+LOG_FILE = './logs/%s-logs.txt' % datetime.now().strftime("%Y-%m-%d %H-%M-%S")
+LOG_FOLDER = './logs'
 
 LOCAL_SEARCH_INDEX = './Data/anime_episodes v1.csv'
 LOCAL_SEARCH_INDEX_FOLDER = './Data'

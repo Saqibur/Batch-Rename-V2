@@ -16,9 +16,6 @@ if __name__ == "__main__":
         exit(0)
 
     if config.USE_LOCAL:
-        if os.path.isdir(config.LOG_FOLDER) is not True:
-            os.mkdir(config.LOG_FOLDER)
-
         if os.path.exists(config.LOCAL_SEARCH_INDEX) is not True:
             print("Downloading local search index. Please wait.")
             print("It's a one time download for a big file.")
@@ -29,6 +26,9 @@ if __name__ == "__main__":
                 except:
                     print("Folder already exists")
                 open(config.LOCAL_SEARCH_INDEX, 'wb+').write(f.read())
+
+    if os.path.isdir(config.LOG_FOLDER) is not True:
+        os.mkdir(config.LOG_FOLDER)
 
     logging.basicConfig(
         filename=config.LOG_FILE,
