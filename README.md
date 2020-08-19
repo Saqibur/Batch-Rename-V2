@@ -55,5 +55,4 @@ However, the JikanPy one is more complete, stays up to date, and is the perfect 
 ## Features
 - ~I quickly realized that, rather than querying episode names or lists from wikipedia each time we run this app, it would be better to save a local copy inside some kind of csv. Not only is this more considerate with Wikimedia's API, we can just run a sync every now and then and we're good to go. I could even add a verify script which makes sure we have the latest corrections.~ Letting go of Wikipedia support.
 
-# Me 6 Hours into this dumb project ->
 <img src="https://i.ytimg.com/vi/jtTBYMvLBbw/maxresdefault.jpg">
